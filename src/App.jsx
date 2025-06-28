@@ -1,4 +1,4 @@
-import PasswordGenerator from './passwordgenerator/PasswordGenerator'
+import PasswordGenerator from './passwordgenerator/PasswordGenerator.jsx'
 
 function App() {
 
