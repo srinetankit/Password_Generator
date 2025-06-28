@@ -9,6 +9,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  
-  base : "/password-generator"
+
+  base : "/password-generator/"
 })
