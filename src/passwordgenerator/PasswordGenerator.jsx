@@ -28,7 +28,7 @@ const PasswordGenerator = () => {
             pwd += str.charAt(currChar);
         }
         setPassword(pwd)
-        console.log(password);
+        // console.log(password);
     }, [length, character, number, uppercase, setPassword])
 
 
