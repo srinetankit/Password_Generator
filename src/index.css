@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body{
+  /* background-color: #121212; */
+  color: #ffffff;
+}
+
+#container{
+  /* background-image: url(./images/bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* filter: blur(1px); */
+  background-color: #000000;
+}
+
+.accent{
+  accent-color: rgb(213, 138, 0);
+}
+
+link{
+  background-color: white;
+}
+
+/* #refIcon:hover #refMsg, 
+#copyIcon:hover #copyMsg
+{
+  visibility: visible;
+  transition-duration: 3ms;
+} */
