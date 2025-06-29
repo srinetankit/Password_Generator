@@ -53,7 +53,7 @@ const PasswordGenerator = () => {
 
             <main>
                 <div className="w-full h-screen flex justify-center items-center bg-black opacity-90 relative font-mono text-black" id="container"> 
-                    <div className="w-[550px] border-2 p-7 rounded-3xl mask-b-to-green-600 bg-white absolute z-10 " id="card">
+                    <div className="w-full sm:w-[550px] border-2 p-7 rounded-3xl mask-b-to-green-600 bg-white absolute z-10 " id="card">
                         
                         <div className="w-full h-full" >
                             <h1 className="text-center text-3xl font-bold">Password Generator</h1>
@@ -103,7 +103,7 @@ const PasswordGenerator = () => {
                                             onChange={(e) => setLength(e.target.value)} 
                                             className="accent"
                                         />
-                                        <label htmlFor="len">{length} Length</label>
+                                        <label htmlFor="len">{length} <span className="hidden sm:inline">Length</span></label>
                                     </span>
                                     <span className="flex justify-center items-center gap-2 text-[20px] w-1/2">
                                         <input
